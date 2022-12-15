@@ -1,0 +1,91 @@
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+input {
+  width: 200px;
+  height: 30px;
+  margin: 10px;
+}
+
+span {
+  font-size: 12px;
+
+  margin-top: 10px;
+}
+
+.logo {
+  margin-bottom: 40px;
+  width: 100px;
+  height: 100px;
+}
+
+
+.btn {
+  padding: 13px;
+  width: 200px;
+  border-radius: 7px;
+  background-color: #272560;
+  border: none;
+  color: white;
+  cursor: pointer;
+  align-items: center;
+}
+
+.btn:hover {
+  background-color: #0070da;
+  color: white;
+}
+
+.Icons {
+  justify-content: space-evenly;
+}
+
+.logincard {
+  margin-top: 40px;
+  margin-bottom: 30px;
+
+}
+
+.load {
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  position: relative;
+  border: 2px solid;
+  margin-left: 10px;
+  border-color: rgb(255, 255, 255) #0000 #fff #0000;
+  border-radius: 50%;
+  box-sizing: border-box;
+  animation: 1s rotate linear infinite;
+}
+
+.load:before,
+.loader:after {
+  content: '';
+  top: 0;
+  left: 0;
+  position: absolute;
+  border-bottom-color: #fff;
+  transform: translate(-10px, 19px) rotate(-35deg);
+}
+
+.load:after {
+  border-color: #de3500 #0000 #0000 #0000;
+  transform: translate(32px, 3px) rotate(-35deg);
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg)
+  }
+}
+
+.con{
+  // box-shadow: 7px 3.0px 1000px 400px #2F80ED;
+  border-radius: 4px;
+  margin-top: 80px;
+}
